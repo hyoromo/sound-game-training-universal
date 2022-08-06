@@ -1,0 +1,147 @@
+baseURL = "https://hyoromo.github.io/sound-game-training-universal/"
+publishDir = "docs"
+languageCode = "en-us"
+theme = "hugo-theme-learn"
+
+defaultContentLanguage = "en"
+metaDataFormat = "yaml"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  # Author of the site, will be used in meta information
+  author = "hyoromo"
+  # Description of the site, will be used in meta information
+  description = "Sound game training app"
+  # Shows a checkmark for visited pages on the menu
+  showVisitedLinks = false
+  # Disable search function. It will hide search bar
+  disableSearch = false
+  # Javascript and CSS cache are automatically busted when new version of site is generated.
+  # Set this to true to disable this behavior (some proxies don't handle well this optimization)
+  disableAssetsBusting = false
+  # Set this to true to disable copy-to-clipboard button for inline code.
+  disableInlineCopyToClipBoard = false
+  # A title for shortcuts in menu is set by default. Set this to true to disable it.
+  disableShortcutsTitle = false
+  # When using mulitlingual website, disable the switch language button.
+  disableLanguageSwitchingButton = false
+  # Hide breadcrumbs in the header and only show the current page title
+  disableBreadcrumb = true
+  # Hide Next and Previous page buttons normally displayed full height beside content
+  disableNextPrev = true
+  # Order sections in menu by "weight" or "title". Default to "weight"
+  ordersectionsby = "weight"
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "mine"
+  # Provide a list of custom css files to load relative from the `static/` folder in the site root.
+  custom_css = ["css/foo.css", "css/bar.css"]
+
+[Languages]
+[Languages.en]
+title = "Sound Game Training"
+weight = 1
+languageName = "English"
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-smile'></i> Character Introduction"
+url = "https://hyoromo.github.io/sound-game-training-universal/chara"
+weight = 10
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-sticky-note'></i> Credits"
+url = "https://hyoromo.github.io/sound-game-training-universal/credits"
+weight = 11
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-coffee'></i> Donation"
+url = "https://www.amazon.jp/hz/wishlist/ls/370CVCOUAFLVK?ref_=wl_share"
+weight = 12
+
+
+[Languages.jp]
+title = "音ゲートレーニング"
+weight = 2
+languageName = "日本語"
+
+[[Languages.jp.menu.shortcuts]]
+name = "<i class='fas fa-smile'></i> キャラ紹介"
+url = "https://hyoromo.github.io/sound-game-training-universal/jp/chara"
+weight = 10
+
+[[Languages.jp.menu.shortcuts]]
+name = "<i class='fas fa-sticky-note'></i> クレジット"
+url = "https://hyoromo.github.io/sound-game-training-universal/jp/credits"
+weight = 11
+
+[[Languages.jp.menu.shortcuts]]
+name = "<i class='fas fa-coffee'></i> 寄付"
+url = "https://www.amazon.jp/hz/wishlist/ls/370CVCOUAFLVK?ref_=wl_share"
+weight = 12
+
+
+[Languages.zh]
+title = "音乐游戏培训"
+weight = 3
+languageName = "简体中文"
+
+[[Languages.zh.menu.shortcuts]]
+name = "<i class='fas fa-smile'></i> 人物介绍"
+url = "https://hyoromo.github.io/sound-game-training-universal/zh/chara"
+weight = 10
+
+[[Languages.zh.menu.shortcuts]]
+name = "<i class='fas fa-sticky-note'></i> 片头"
+url = "https://hyoromo.github.io/sound-game-training-universal/zh/credits"
+weight = 11
+
+[[Languages.zh.menu.shortcuts]]
+name = "<i class='fas fa-coffee'></i> 捐赠"
+url = "https://www.amazon.jp/hz/wishlist/ls/370CVCOUAFLVK?ref_=wl_share"
+weight = 12
+
+
+[Languages.zh-TW]
+title = "音樂遊戲培訓"
+weight = 4
+languageName = "繁體中文"
+
+[[Languages.zh-TW.menu.shortcuts]]
+name = "<i class='fas fa-smile'></i> 人物介紹"
+url = "https://hyoromo.github.io/sound-game-training-universal/zh-tw/chara"
+weight = 10
+
+[[Languages.zh-TW.menu.shortcuts]]
+name = "<i class='fas fa-sticky-note'></i> 片頭"
+url = "https://hyoromo.github.io/sound-game-training-universal/zh-tw/credits"
+weight = 11
+
+[[Languages.zh-TW.menu.shortcuts]]
+name = "<i class='fas fa-coffee'></i> 捐贈"
+url = "https://www.amazon.jp/hz/wishlist/ls/370CVCOUAFLVK?ref_=wl_share"
+weight = 12
+
+
+[Languages.ko]
+title = "사운드 게임 교육"
+weight = 2
+languageName = "한국어"
+
+[[Languages.ko.menu.shortcuts]]
+name = "<i class='fas fa-smile'></i> 캐릭터 소개"
+url = "https://hyoromo.github.io/sound-game-training-universal/ko/chara"
+weight = 10
+
+[[Languages.ko.menu.shortcuts]]
+name = "<i class='fas fa-sticky-note'></i> 크레딧 표시"
+url = "https://hyoromo.github.io/sound-game-training-universal/ko/credits"
+weight = 11
+
+[[Languages.ko.menu.shortcuts]]
+name = "<i class='fas fa-coffee'></i> 기부"
+url = "https://www.amazon.jp/hz/wishlist/ls/370CVCOUAFLVK?ref_=wl_share"
+weight = 12

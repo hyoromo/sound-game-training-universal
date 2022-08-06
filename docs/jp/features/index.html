@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="jp" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="description" content="Sound game training app">
+<meta name="author" content="hyoromo">
+
+    <link rel="shortcut icon" href=/sound-game-training/images/favicon.png type="image/x-icon" />
+    <title>機能説明 :: 音ゲートレーニング</title>
+
+    
+    <link href="/sound-game-training/css/nucleus.css?1659766157" rel="stylesheet">
+    <link href="/sound-game-training/css/fontawesome-all.min.css?1659766157" rel="stylesheet">
+    <link href="/sound-game-training/css/hybrid.css?1659766157" rel="stylesheet">
+    <link href="/sound-game-training/css/featherlight.min.css?1659766157" rel="stylesheet">
+    <link href="/sound-game-training/css/perfect-scrollbar.min.css?1659766157" rel="stylesheet">
+    <link href="/sound-game-training/css/auto-complete.css?1659766157" rel="stylesheet">
+    <link href="/sound-game-training/css/atom-one-dark-reasonable.css?1659766157" rel="stylesheet">
+    <link href="/sound-game-training/css/theme.css?1659766157" rel="stylesheet">
+    <link href="/sound-game-training/css/hugo-theme.css?1659766157" rel="stylesheet">
+    
+    <link href="/sound-game-training/css/theme-mine.css?1659766157" rel="stylesheet">
+    
+    <link href="/sound-game-training/css/foo.css?1659766157" rel="stylesheet"><link href="/sound-game-training/css/bar.css?1659766157" rel="stylesheet">
+
+    <script src="/sound-game-training/js/jquery-3.3.1.min.js?1659766157"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/sound-game-training/jp/features/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://hyoromo.github.io/sound-game-training/jp">
+  <img src=/sound-game-training/images/logo.png width="60%" height="60%" />
+</a>
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/sound-game-training/js/lunr.min.js?1659766157"></script>
+<script type="text/javascript" src="/sound-game-training/js/auto-complete.js?1659766157"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/hyoromo.github.io\/sound-game-training\/\/jp";
+    
+</script>
+<script type="text/javascript" src="/sound-game-training/js/search.js?1659766157"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/sound-game-training/jp/features/" title="機能説明" class="dd-item 
+        parent
+        active
+        
+        ">
+      <a href="/sound-game-training/jp/features/">
+          <b>01. </b>機能説明
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/sound-game-training/jp/faq/" title="よくある質問" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/sound-game-training/jp/faq/">
+          <b>02. </b>よくある質問
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>その他</h3>
+        <ul>
+          
+              <li> 
+                  <a class="padding" href="https://hyoromo.github.io/sound-game-training/jp/chara"><i class='fas fa-smile'></i> キャラ紹介</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" href="https://hyoromo.github.io/sound-game-training/jp/credits"><i class='fas fa-sticky-note'></i> クレジット</a>
+              </li>
+          
+              <li> 
+                  <a class="padding" href="https://www.amazon.jp/hz/wishlist/ls/370CVCOUAFLVK?ref_=wl_share"><i class='fas fa-coffee'></i> 寄付</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="prefooter">
+      <hr/>
+      <ul>
+      
+        <li>
+          <a class="padding">
+            <i class="fas fa-language fa-fw"></i>
+          <div class="select-style">
+            <select id="select-language" onchange="location = this.value;">
+          
+          
+          
+              
+              
+                  
+                    
+                    
+                      <option id="en" value="https://hyoromo.github.io/sound-game-training/features/">English</option>
+                    
+                  
+              
+                  
+              
+                  
+              
+                  
+              
+                  
+              
+          
+              
+              
+                  
+              
+                  
+                    
+                    
+                      <option id="jp" value="https://hyoromo.github.io/sound-game-training/jp/features/" selected>日本語</option>
+                    
+                  
+              
+                  
+              
+                  
+              
+                  
+              
+          
+              
+              
+                  
+              
+                  
+              
+                  
+                    
+                    
+                      <option id="ko" value="https://hyoromo.github.io/sound-game-training/ko/features/">한국어</option>
+                    
+                  
+              
+                  
+              
+                  
+              
+          
+              
+              
+                  
+              
+                  
+              
+                  
+              
+                  
+                    
+                    
+                      <option id="zh" value="https://hyoromo.github.io/sound-game-training/zh/features/">简体中文</option>
+                    
+                  
+              
+                  
+              
+          
+              
+              
+                  
+              
+                  
+              
+                  
+              
+                  
+              
+                  
+                    
+                    
+                      <option id="zh-tw" value="https://hyoromo.github.io/sound-game-training/zh-tw/features/">繁體中文</option>
+                    
+                  
+              
+          
+        </select>
+        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          width="255px" height="255px" viewBox="0 0 255 255" style="enable-background:new 0 0 255 255;" xml:space="preserve">
+          <g>
+            <g id="arrow-drop-down">
+              <polygon points="0,63.75 127.5,191.25 255,63.75 		" />
+            </g>
+          </g>
+        </svg>
+        </div>
+        </a>
+        </li>
+      
+      
+      
+      </ul>
+    </section>
+    
+    <section id="footer">
+      
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                   機能説明
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#再生動画の追加">再生動画の追加</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#疑似プレイ">疑似プレイ</a></li>
+    <li><a href="#再生位置をブックマーク">再生位置をブックマーク</a></li>
+    <li><a href="#色々なゲームの判定ラインをサポート">色々なゲームの判定ラインをサポート</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              機能説明
+            </h1>
+          
+
+        
+
+
+
+	<p>「音ゲートレーニング」アプリは、音ゲー/リズムゲームを練習する為のアプリです。<br>
+プレイ動画を再生してノーツの確認や、動画を直接タッチする事で疑似プレイする事が出来ます。</p>
+<h2 id="再生動画の追加">再生動画の追加</h2>
+<p>アプリ内で再生する動画を追加する方法は、4通りあります。</p>
+<h4 id="カメラロール">カメラロール</h4>
+<p>カメラロールは端末で動画撮影を行った際に保存される場所です。写真アプリなどから閲覧出来ます。<br>
+本アプリで追加する方法は以下の通りです。</p>
+<ol>
+<li>動画一覧画面を開く</li>
+<li>画面右下の「動画を追加」ボタンをクリック</li>
+<li>追加候補が表示中から「カメラロール」を選択</li>
+<li>追加したい動画を選択</li>
+<li>動画登録情報を入力して「追加」ボタンをクリック</li>
+</ol>
+<p>この手順後に動画一覧画面へ戻ると追加した動画が一覧に並んでいます。</p>
+<h4 id="icloud-drive">iCloud Drive</h4>
+<p>iCloud DriveはApple提供のオンラインストレージサービスです。ファイルアプリから閲覧出来ます。<br>
+本アプリで追加する方法は以下の通りです。</p>
+<ol>
+<li>動画一覧画面を開く</li>
+<li>画面右下の「動画を追加」ボタンをクリック</li>
+<li>追加候補が表示中から「iCloud Drive」を選択</li>
+<li>追加したい動画を選択</li>
+<li>動画登録情報を入力して「追加」ボタンをクリック</li>
+</ol>
+<p>この手順後に動画一覧画面へ戻ると追加した動画が一覧に並んでいます。</p>
+<h4 id="pcから転送">PCから転送</h4>
+<p>PCのミュージック(旧:iTunes)アプリから端末のアプリストレージへ動画を転送出来ます。<br>
+「<a href= "https://support.apple.com/ja-jp/HT201301" >iTunes を使ってコンピュータと iOS／iPadOS デバイスの間でファイルを共有する</a>」ページに転送方法が書かれていますので、こちらを参考にアプリへ転送してください。<br>
+本アプリで追加する方法は以下の通りです。</p>
+<ol>
+<li>動画一覧画面を開く</li>
+<li>画面右下の「動画を追加」ボタンをクリック</li>
+<li>追加候補が表示中から「アプリ内」を選択</li>
+<li>追加したい動画を選択</li>
+<li>動画登録情報を入力して「追加」ボタンをクリック</li>
+</ol>
+<p>この手順後に動画一覧画面へ戻ると追加した動画が一覧に並んでいます。</p>
+<h4 id="youtube動画を再生">YouTube動画を再生</h4>
+<p>YouTubeはGoogle社の動画共有サービスです。他の人がアップロードした音ゲー/リズムゲームの動画が存在する事があります。<br>
+本アプリで追加する方法は以下の通りです。</p>
+<ol>
+<li>動画一覧画面を開く</li>
+<li>画面右下の「動画を追加」ボタンをクリック</li>
+<li>追加候補が表示中から「YouTube」を選択</li>
+<li>YouTubeサイトから追加したい動画ページを開く</li>
+<li>動画ページの右下にある「動画を登録」ボタンをクリック</li>
+<li>動画登録情報を入力して「追加」ボタンをクリック</li>
+</ol>
+<p>この手順後に動画一覧画面へ戻ると追加した動画が一覧に並んでいます。</p>
+
+<div class="notices note" ><p>YouTube動画をダウンロードする訳ではないため、本アプリで動画再生時に毎回通信量が発生します。</p>
+</div>
+
+<h2 id="疑似プレイ">疑似プレイ</h2>
+<p>再生中に動画をタップしても一時停止される事がありません。<br>
+なので擬似的に音ゲー/リズムゲーをプレイする事が出来ます。<br></p>
+<p>それ以外にも練習しやすくなる機能が多数あります。</p>
+<ul>
+<li>動画の再生速度を調整<br>0.25〜2.00倍速までの範囲で再生速度を調整出来ます</li>
+<li>動画の再生開始/終了位置を調整<br>難所だけを集中的にプレイできるよう再生開始と終了範囲を設定出来ます</li>
+<li>動画の拡大／縮小と位置を調整<br>動画を端末解像度に合わせられるように拡縮と位置調整が行えます</li>
+<li>動画の反転(ミラー)<br>動画画面を左右反転表示出来ます</li>
+<li>動画の縦向き/横向きの両方に対応<br>端末向きを縦/横向きに固定してプレイする事が出来ます</li>
+<li>再生中に数秒だけ巻き戻し/早送りするショートカットボタン<br>一時停止してシークバー操作すること無く手軽に時間を操作出来るショートカットボタンを設定しています</li>
+</ul>
+<h2 id="再生位置をブックマーク">再生位置をブックマーク</h2>
+<p><img src="img_video_bookmark.png#imgleft" alt="video scale"></p>
+<div class="clear clear_box"></div>
+動画の再生開始/終了位置をブックマーク登録する機能があります。<br>
+番号毎に再生開始/終了位置を設定しておくと、練習したい箇所の再生位置を手早く切り替える事が出来ます。<br>
+<h2 id="色々なゲームの判定ラインをサポート">色々なゲームの判定ラインをサポート</h2>
+<p><img src="img_video_scale.png#imgleft" alt="video scale"></p>
+<div class="clear clear_box"></div>
+端末機種ごとに音ゲー/リズムゲームの判定ラインが異なる事が多いです。目当ての動画と端末の判定ライン位置が異なるかもしれません。<br>
+この問題に対して本アプリは、ご利用の端末での判定ラインに合わせやすいようガイド表示をサポートしています。<br><br>
+サポートしているゲームは以下の通りです。ゆっくりですが対応アプリを増やし続けております。<br>
+<ul>
+<li>アイドルマスター シンデレラガールズ スターライトステージ</li>
+<li>アイドルマスター ミリオンライブ！ シアターデイズ</li>
+<li>アイドルマスター SideM GROWING STARS</li>
+<li>ラブライブ！スクールアイドルフェスティバル</li>
+<li>バンドリ！ ガールズバンドパーティ！</li>
+<li>プロジェクトセカイ カラフルステージ！ feat. 初音ミク</li>
+<li>Deemo</li>
+<li>VOEZ</li>
+<li>Arcaea</li>
+<li>Dynamix</li>
+<li>ヒプノシスマイク -A.R.B-</li>
+<li>あんさんぶるスターズ！！Music</li>
+<li>Re:ステージ！プリズムステップ</li>
+<li>Tokyo 7th シスターズ</li>
+<li>D4DJ Groovy Mix</li>
+<li>歌マクロス</li>
+<li>ガールフレンド（♪）</li>
+<li>東方ダンマクカグラ</li>
+</ul>
+
+<div class="notices warning" ><p>プレイ動画を撮影した端末によっては、ラインに合わせられない事があります。</p>
+</div>
+
+
+
+
+
+
+<footer class=" footline" >
+	
+</footer>
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/sound-game-training/js/clipboard.min.js?1659766157"></script>
+    <script src="/sound-game-training/js/perfect-scrollbar.min.js?1659766157"></script>
+    <script src="/sound-game-training/js/perfect-scrollbar.jquery.min.js?1659766157"></script>
+    <script src="/sound-game-training/js/jquery.sticky.js?1659766157"></script>
+    <script src="/sound-game-training/js/featherlight.min.js?1659766157"></script>
+    <script src="/sound-game-training/js/highlight.pack.js?1659766157"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/sound-game-training/js/modernizr.custom-3.6.0.js?1659766157"></script>
+    <script src="/sound-game-training/js/learn.js?1659766157"></script>
+    <script src="/sound-game-training/js/hugo-learn.js?1659766157"></script>
+
+    <link href="/sound-game-training/mermaid/mermaid.css?1659766157" rel="stylesheet" />
+    <script src="/sound-game-training/mermaid/mermaid.js?1659766157"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    <script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+  ga('create', 'UA-43981121-7', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>
