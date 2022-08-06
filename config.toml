@@ -43,7 +43,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
-title = "Sound Game Training"
+title = "iOS/Android App \"Sound Game Training\""
 weight = 1
 languageName = "English"
 
@@ -64,7 +64,7 @@ weight = 12
 
 
 [Languages.jp]
-title = "音ゲートレーニング"
+title = "iOS/Androidアプリ「音ゲートレーニング」"
 weight = 2
 languageName = "日本語"
 
@@ -85,7 +85,7 @@ weight = 12
 
 
 [Languages.zh]
-title = "音乐游戏培训"
+title = "iOS/Android应用程序 \"音乐游戏培训\""
 weight = 3
 languageName = "简体中文"
 
@@ -106,7 +106,7 @@ weight = 12
 
 
 [Languages.zh-TW]
-title = "音樂遊戲培訓"
+title = "iOS/Android應用程序 \"音樂遊戲培訓\""
 weight = 4
 languageName = "繁體中文"
 
@@ -127,7 +127,7 @@ weight = 12
 
 
 [Languages.ko]
-title = "사운드 게임 교육"
+title = "iOS/Android 앱 \"사운드 게임 교육\""
 weight = 2
 languageName = "한국어"
 
