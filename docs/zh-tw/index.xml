@@ -5,10 +5,6 @@
     <link>https://hyoromo.github.io/sound-game-training-universal/zh-tw/</link>
     <description>Recent content in index on iOS/Android應用程序 &#34;音樂遊戲培訓&#34;</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://hyoromo.github.io/sound-game-training-universal/zh-tw/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://hyoromo.github.io/sound-game-training-universal/zh-tw/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
