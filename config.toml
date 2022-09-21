@@ -59,8 +59,8 @@ url = "https://hyoromo.github.io/sound-game-training-universal/credits"
 weight = 11
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-coffee'></i> Donation"
-url = "https://www.amazon.jp/hz/wishlist/ls/370CVCOUAFLVK?ref_=wl_share"
+name = "<i class='fas fa-coffee'></i> Tip"
+url = "https://hyoromo.github.io/sound-game-training-universal/tip"
 weight = 12
 
 
@@ -80,8 +80,8 @@ url = "https://hyoromo.github.io/sound-game-training-universal/jp/credits"
 weight = 11
 
 [[Languages.jp.menu.shortcuts]]
-name = "<i class='fas fa-coffee'></i> 寄付"
-url = "https://www.amazon.jp/hz/wishlist/ls/370CVCOUAFLVK?ref_=wl_share"
+name = "<i class='fas fa-coffee'></i> 投げ銭"
+url = "https://hyoromo.github.io/sound-game-training-universal/jp/tip"
 weight = 12
 
 
@@ -102,7 +102,7 @@ weight = 11
 
 [[Languages.zh.menu.shortcuts]]
 name = "<i class='fas fa-coffee'></i> 捐赠"
-url = "https://www.amazon.jp/hz/wishlist/ls/370CVCOUAFLVK?ref_=wl_share"
+url = "https://hyoromo.github.io/sound-game-training-universal/zh/tip"
 weight = 12
 
 
@@ -123,7 +123,7 @@ weight = 11
 
 [[Languages.zh-TW.menu.shortcuts]]
 name = "<i class='fas fa-coffee'></i> 捐贈"
-url = "https://www.amazon.jp/hz/wishlist/ls/370CVCOUAFLVK?ref_=wl_share"
+url = "https://hyoromo.github.io/sound-game-training-universal/zh-tw/tip"
 weight = 12
 
 
@@ -144,5 +144,5 @@ weight = 11
 
 [[Languages.ko.menu.shortcuts]]
 name = "<i class='fas fa-coffee'></i> 기부"
-url = "https://www.amazon.jp/hz/wishlist/ls/370CVCOUAFLVK?ref_=wl_share"
+url = "https://hyoromo.github.io/sound-game-training-universal/ko/tip"
 weight = 12

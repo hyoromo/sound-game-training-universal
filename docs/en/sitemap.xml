@@ -82,5 +82,32 @@
                 hreflang="en"
                 href="https://hyoromo.github.io/sound-game-training-universal/tags/"
                 />
+  </url><url>
+    <loc>https://hyoromo.github.io/sound-game-training-universal/tip/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://hyoromo.github.io/sound-game-training-universal/jp/tip/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://hyoromo.github.io/sound-game-training-universal/ko/tip/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://hyoromo.github.io/sound-game-training-universal/zh/tip/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://hyoromo.github.io/sound-game-training-universal/zh-tw/tip/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hyoromo.github.io/sound-game-training-universal/tip/"
+                />
   </url>
 </urlset>
