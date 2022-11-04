@@ -129,3 +129,13 @@ appnexus.com, 13794, RESELLER, f5ab79cb980f11d1
 video.unrulymedia.com, 4270213217, RESELLER
 pubmatic.com, 161648, RESELLER, 5d62403b186f2ace
 contextweb.com, 562718, RESELLER, 89ff185a4c4e857c
+video.unrulymedia.com, 5141555505504992937, DIRECT
+rhythmone.com, 5141555505504992937, DIRECT, a670c89d4a324e47
+indexexchange.com, 182257, RESELLER
+appnexus.com, 6849, RESELLER
+rubiconproject.com, 15268, RESELLER
+spotxchange.com, 285547, RESELLER, 7842df1d2fe2db34
+spotx.tv, 285547, RESELLER, 7842df1d2fe2db34
+pubmatic.com, 159277, RESELLER, 5d62403b186f2ace
+advertising.com, 28605, RESELLER
+improvedigital.com, 1699, RESELLER
