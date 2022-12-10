@@ -83,6 +83,33 @@
                 href="https://hyoromo.github.io/sound-game-training-universal/zh/tags/"
                 />
   </url><url>
+    <loc>https://hyoromo.github.io/sound-game-training-universal/zh/chara/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hyoromo.github.io/sound-game-training-universal/chara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://hyoromo.github.io/sound-game-training-universal/jp/chara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://hyoromo.github.io/sound-game-training-universal/ko/chara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://hyoromo.github.io/sound-game-training-universal/zh-tw/chara/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://hyoromo.github.io/sound-game-training-universal/zh/chara/"
+                />
+  </url><url>
     <loc>https://hyoromo.github.io/sound-game-training-universal/zh/tip/</loc>
     <xhtml:link
                 rel="alternate"
@@ -108,6 +135,33 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://hyoromo.github.io/sound-game-training-universal/zh/tip/"
+                />
+  </url><url>
+    <loc>https://hyoromo.github.io/sound-game-training-universal/zh/credits/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hyoromo.github.io/sound-game-training-universal/credits/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://hyoromo.github.io/sound-game-training-universal/jp/credits/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://hyoromo.github.io/sound-game-training-universal/ko/credits/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://hyoromo.github.io/sound-game-training-universal/zh-tw/credits/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://hyoromo.github.io/sound-game-training-universal/zh/credits/"
                 />
   </url>
 </urlset>

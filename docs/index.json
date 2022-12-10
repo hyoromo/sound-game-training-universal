@@ -7,6 +7,20 @@
 	"content": ""
 },
 {
+	"uri": "https://hyoromo.github.io/sound-game-training-universal/chara/",
+	"title": "Character Introduction",
+	"tags": [],
+	"description": "",
+	"content": " It appears when there is a tutorial or announcement.\nCheck the credits for information on the character designer.\nThe following illustrations are the preliminary design and rough sketches for the application.\nDesign proposal Rough sketch "
+},
+{
+	"uri": "https://hyoromo.github.io/sound-game-training-universal/credits/",
+	"title": "Credits",
+	"tags": [],
+	"description": "",
+	"content": "Credits App development \u0026amp; Site development hyoromo\nCharacter design Sin:cK\nSite Development Tools Hugo\nhugo-theme-learn\n"
+},
+{
 	"uri": "https://hyoromo.github.io/sound-game-training-universal/",
 	"title": "index",
 	"tags": [],

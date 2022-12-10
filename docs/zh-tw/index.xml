@@ -7,6 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://hyoromo.github.io/sound-game-training-universal/zh-tw/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>人物介紹</title>
+      <link>https://hyoromo.github.io/sound-game-training-universal/zh-tw/chara/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hyoromo.github.io/sound-game-training-universal/zh-tw/chara/</guid>
+      <description> 當有教程和公告時就會出現。
+查看片頭，了解角色設計師的信息。
+下圖為申請的初步設計和粗略草圖。
+設計方案 草圖 </description>
+    </item>
+    
+    <item>
       <title>捐贈</title>
       <link>https://hyoromo.github.io/sound-game-training-universal/zh-tw/tip/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -17,6 +29,18 @@
  亞馬遜禮券電子郵件類型  電子郵件類型的目標電子郵件地址是 hyoromo@gmail.com 。
 從最低金額接受小費。
 我們收到的錢將用於基金發展。</description>
+    </item>
+    
+    <item>
+      <title>片頭</title>
+      <link>https://hyoromo.github.io/sound-game-training-universal/zh-tw/credits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hyoromo.github.io/sound-game-training-universal/zh-tw/credits/</guid>
+      <description>片頭 應用開發 &amp;amp; 網站開發 hyoromo
+人物設計 Sin:cK
+網站開發工具 Hugo
+hugo-theme-learn</description>
     </item>
     
   </channel>

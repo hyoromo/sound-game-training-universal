@@ -21,6 +21,20 @@
 	"content": ""
 },
 {
+	"uri": "https://hyoromo.github.io/sound-game-training-universal/jp/chara/",
+	"title": "キャラ紹介",
+	"tags": [],
+	"description": "",
+	"content": " アプリ上ではチュートリアルやお知らせがある時に登場します。\nサト子は「英語表記アプリ名 \u0026ldquo;Sound game Training\u0026rdquo; する子」から付けた名前です。\nキャラクタデザイン者の情報はクレジットに表記しているので確認してみてください。\nそして以下のイラストはキャラクタ正式作成前の「デザイン案」と「アプリ使用箇所でのラフ絵」になります。\nデザイン案 ラフ絵 "
+},
+{
+	"uri": "https://hyoromo.github.io/sound-game-training-universal/jp/credits/",
+	"title": "クレジット",
+	"tags": [],
+	"description": "",
+	"content": "クレジット アプリ開発 \u0026amp; サイト制作 hyoromo\nキャラクタデザイン Sin:cK\nサイト制作ツール Hugo\nhugo-theme-learn\n"
+},
+{
 	"uri": "https://hyoromo.github.io/sound-game-training-universal/jp/tip/",
 	"title": "投げ銭",
 	"tags": [],
