@@ -10,6 +10,10 @@ metaDataFormat = "yaml"
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
+[params.adsense]
+  client = "ca-pub-5253715142491438"
+  inArticleSlot = "1443627342"
+
 [markup.goldmark.renderer]
   unsafe = true
 
